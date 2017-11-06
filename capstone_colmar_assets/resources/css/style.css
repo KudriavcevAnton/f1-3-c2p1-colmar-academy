@@ -1,0 +1,611 @@
+/* Universal Styles */
+
+html{
+  text-align: left;
+  font-size: 12px;
+  background-color: white;
+  margin: 0;
+  color: gray;
+}
+
+/* Header */
+
+.header{
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  height: 5.33rem;
+  margin: 0;
+  z-index: 2;
+}
+
+.logo{
+  display: inline-flex;
+  width: 100%;
+}
+
+#logo{
+  height: 2.67rem;
+  margin: 1.33rem 0.3rem 1.33rem 2rem;
+}
+
+#online{
+  display: none;
+}
+
+#companies{
+  display: none;
+}
+
+#sign-in{
+  display: none;
+}
+
+#colm{
+  font-size: 1.5rem;
+  margin-top: 1.75rem;
+  font-weight: bolder;
+  color: gray;
+}
+
+#acad{
+  font-size: 1.5rem;
+  margin-top: 1.75rem;
+  font-weight: normal;
+  color: darkgray;
+}
+
+.header a:hover{
+  color: #BCFAFF;
+  font-size: 1.33rem;
+}
+
+.header nav a{
+  border-left: 1.33rem solid #BCFAFF;
+  padding: 1.95rem 0;
+  padding-right: : 0;
+  text-decoration: none;
+  font-size: 1.33rem;
+  color: gray;
+}
+
+.header nav{
+  display: inline;
+  text-align: right;
+  width: 60rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+/* Body */
+
+/* Top Block */
+
+.top{
+  display: flex;
+  background-color: #BDBEBF;
+  width: 100%;
+  height: auto;
+  padding-top: 5.33rem;
+}
+
+.top img{
+  margin: 2.67rem 2rem;
+  width: 60%;
+  height: 100%;
+}
+
+.text-banner{
+  margin: 7rem 5rem 8rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.text-banner h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  display: block;
+  padding: 2rem 0;
+}
+
+.text-banner h4{
+  font-size: 2.2rem;
+  font-weight: bold;
+  display: block;
+  padding: 2rem 0;
+}
+
+.text-banner a:hover{
+  background-color: #BCFAFF;
+  color: white;
+}
+
+.text-banner a{
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: white;
+  color: gray;
+  text-decoration: none;
+}
+
+/* Second block */
+
+.second{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+/* Left */
+
+.men-text{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 2.67rem 2rem 1.33rem 2rem;
+}
+
+.men-text img{
+  width: 100%;
+  height: auto;
+}
+
+.men-text h1{
+margin-top: 2.67rem;
+margin-bottom: 1.33rem;
+font-size: 3rem;
+font-weight: bold;
+}
+
+.men-text p{
+font-size: 1.2rem;
+margin-bottom: 0.67rem;
+}
+
+/* Right */
+
+.men-blocks{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 2.67rem;
+}
+
+.date, .lecture, .campus{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid lightgray;
+  align-items: center;
+}
+
+.lecture{
+  background-color: #BDBEBF;
+}
+
+.date-jpg,
+.campus-jpg,
+.lecture-jpg{
+  width: 35%;
+  margin: 1.33rem;
+}
+
+.date img,
+.campus img,
+.lecture img{
+  width: 100%;
+  height: auto;
+}
+
+.date-text,
+.campus-text,
+.lecture-text{
+  width: 65%;
+}
+
+.date-text h4,
+.campus-text h4,
+.lecture-text h4{
+  font-size: 2.2rem;
+}
+
+.date-text p,
+.campus-text p,
+.lecture-text p{
+  font-size: 1.2rem;
+  margin-bottom: 0.67rem;
+}
+
+.date-text a:hover,
+.campus-text a:hover,
+.lecture-text a:hover{
+  color: #BCFAFF;
+  font-size: 1.33rem;
+}
+
+.date-text a,
+.campus-text a,
+.lecture-text a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: blue;
+}
+
+/* Third, with 6 blocks */
+
+.third{
+  display: flex;
+  flex-direction: column;
+  background-color: #BDBEBF;
+  width: 89.6%;
+  height: auto;
+  padding: 2.67rem 4.67rem 2.67rem 4.67rem;
+}
+
+.third h4{
+  padding: 1.33rem 0 0.67rem 1.33rem;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+#courses{
+  padding: 0 0 0.67rem 1.33rem;
+  font-size: 1.2rem;
+}
+
+.third p{
+  padding: 0 0 2rem 1.33rem;
+  font-size: 1.2rem;
+}
+
+.th-top{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.33rem;
+}
+
+.th-block{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.th{
+  display: inline-block;
+  flex-direction: column;
+  margin: 1.33rem;
+  width: 100%;
+  height: auto;
+}
+
+.th img{
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.th-text{
+  display: inline-block;
+  width: 100%;
+  min-height: 11.39rem;
+  background-color: white;
+}
+
+/* Fourth (last) block */
+
+.last{
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  height: auto;
+  border-bottom: 1px solid gray;
+  padding: 2.67rem 0 2.67rem 1rem;
+}
+
+.last-top{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.last-block{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 2.67rem 0 0 1rem;
+}
+
+/* Left */
+
+.last-left{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+}
+
+.last-block video{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.last-left h4{
+  margin: 2rem 0 0.67rem 0;
+  font-size: 2.2rem;
+}
+
+.last-left p{
+  font-size: 1.2rem;
+  margin-bottom: 1.33rem;
+}
+
+/* Right */
+
+.last-right{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  margin-left: 2rem;
+}
+
+.fisma{
+  background-color: #BDBEBF;
+}
+
+.now-n-then, .fisma{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fisma-jpg,
+.now-n-then-jpg{
+  width: 35%;
+  padding: 1.33rem;
+}
+
+.fisma img,
+.now-n-then img{
+  width: 100%;
+  height: auto;
+}
+
+.fisma-text,
+.now-n-then-text{
+  width: 65%;
+  height: auto;
+}
+
+.fisma-text h4,
+.now-n-then-text h4{
+  font-size: 2.2rem;
+}
+
+.fisma-text p,
+.now-n-then-text p{
+  font-size: 1.2rem;
+}
+
+/* Footer */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  height: 4rem;
+  margin: 1.33rem 0 1.33rem 2rem;
+  font-size: 1.5rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: gray;
+}
+
+.footer a:hover{
+  color: #BCFAFF;
+  font-size: 1.33rem;
+}
+
+
+
+#footer-a{
+  margin-right: 1.33rem;
+}
+
+
+/* adaptive */
+
+@media only screen and (max-width: 1024px){
+
+/* Header */
+
+  .logo{
+    justify-content: space-around;
+  }
+
+  #logo:hover,
+  #online:hover,
+  #companies:hover,
+  #sign-in:hover{
+    color: #BCFAFF;
+    font-size: 1.33rem;
+  }
+
+  #logo,
+  #online,
+  #companies,
+  #sign-in{
+    display: inline;
+    height: 2.67rem;
+    margin-top: 1.33rem;
+    margin-left: 0;
+  }
+
+  .header nav{
+    display: none;
+  }
+
+  .logo h1{
+    display: none;
+  }
+
+/* Top block */
+
+  .top{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .top img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .text-banner{
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .text-banner h1{
+    margin: 2.67rem 1.33rem;
+    padding: 0;
+  }
+
+  .text-banner h4{
+    margin-left: 1.33rem;
+    padding: 0;
+  }
+
+  .text-banner a{
+    margin: 2rem 1.33rem 2.67rem 1.33rem;
+  }
+
+/* Second block */
+
+  .men-text{
+    display: none;
+  }
+
+  .men-blocks{
+    width: 100%;
+    height: auto;
+  }
+
+  .date, .lecture, .campus{
+    flex-direction: column;
+    border: none;
+  }
+
+  .lecture{
+    background-color: white;
+    margin-bottom: 2.67rem;
+  }
+
+  .date-jpg,
+  .campus-jpg,
+  .lecture-jpg{
+    width: 100%;
+    height: auto;
+  }
+
+  .date img,
+  .campus img,
+  .lecture img{
+    margin: 1.33rem 1.33rem;
+    width: 94%;
+    height: auto;
+  }
+
+/* Third block */
+
+  .third{
+    background-color: white;
+    width: 100%;
+    padding: 0;
+    border: 1px solid lightgrey;
+    padding: 2.67rem 0;
+  }
+
+  .th-top{
+    margin-bottom: 1.33rem;
+  }
+
+  .th{
+    margin: 0.67rem;
+  }
+
+  .th img,
+  .third p{
+    display: none;
+  }
+
+  .th-block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .th-text{
+    height: auto;
+    background-color: lightgray;
+    width: 96%;
+  }
+
+  .th-text h4{
+    text-align: left;
+    margin: 1.33rem 0 2rem 1.33rem;
+  }
+
+/* Last block */
+
+  .last-top{
+    margin: 2.67rem 0 1.33rem 0;
+  }
+
+  .last-left h4,
+  .last-left p,
+  .last-right{
+    display: none;
+  }
+
+  .last-left{
+    width: 100%;
+  }
+
+  .last,
+  .last-block{
+    margin: 0 0 2rem 0;
+    padding: 0;
+    border-bottom: none;
+  }
+
+  .last-block video{
+    margin-left: 1.33rem;
+    width: 94%;
+  }
+
+/* Footer */
+
+.footer{
+  width: 100%;
+  height: auto;
+}
+
+  .footer a{
+    display: none;
+  }
+}
